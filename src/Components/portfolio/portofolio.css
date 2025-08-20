@@ -1,0 +1,67 @@
+.container__portfolio{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  justify-content: center;
+}
+.portfolio__item{
+  background-color: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+/* .portfolio__item:hover{
+  border-color: var(--color-primary-variant);
+  background-color: transparent;
+} */
+.portfolio__item-image{
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+.portfolio__item-image img{
+  width: 100%;
+  object-fit: cover;
+}
+.portfolio__item-image .icon{
+  font-size: 180px
+}
+.portfolio__item h3{
+  margin: 1.2rem 0 2rem;
+  text-transform: capitalize;
+}
+.portfolio__item-cta{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+/* ==============  MEIDA QUIRY (MIDIUM SCREENS) ============= */
+@media (max-width: 1024px) {
+  .container__portfolio{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+@media (max-width: 767px) {
+  .container__portfolio {
+    gap: 10px;
+}
+.portfolio__item {
+    padding: 10px;
+}
+  .portfolio__item-image {
+    display: flex;
+    justify-content: center;
+}
+.portfolio__item-image .icon{
+  font-size: 100px
+}
+  article .portfolio__item-cta .btn{
+      padding: 5px;
+      font-size: 14px;
+  }
+  .portfolio__item-cta {
+    gap: 6px;
+}
+}
