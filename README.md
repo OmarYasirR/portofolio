@@ -4,7 +4,7 @@ Welcome to my personal portfolio website built with **React.js**! This project s
 
 ## 🚀 Live Demo
 
-Check out the live version here: [https://your-portfolio-url.com](https://your-portfolio-url.com)
+Check out the live version here: [https://your-portfolio-url.com](https://portofolio-f3wubbl3b-omaryasirrs-projects.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -42,7 +42,7 @@ my-portfolio/
 
 ## 📸 Screenshots
 
-> _Add screenshots or GIFs here to visually highlight your portfolio_
+![screenshot](public/portfolio.png)
 
 ## 🧠 What I Learned
 
